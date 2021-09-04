@@ -78,7 +78,7 @@ p {
 
 .benefits {
     margin-right: 20px;
-    padding: 20px;
+    padding: 40px; /* changed from 20px to 40px to better match screenshot */
     clear: both;
     float: right;
     width: 20%;
