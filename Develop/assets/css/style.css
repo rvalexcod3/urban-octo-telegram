@@ -49,11 +49,12 @@ a {
 
 p {
     font-size: 16px;
+
 }
 
 .hero {
-    height: 1100px;
-    width: 102%;
+    height: 1100px; /* increased height of image to better match screenshot */
+    width: 102%; /* increased width of image to better match screnshot */
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
@@ -73,7 +74,7 @@ p {
 .content {
     width: 75%;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .benefits {
