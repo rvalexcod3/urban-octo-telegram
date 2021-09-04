@@ -146,7 +146,7 @@ p {
     color: #ffffff;
 }
 .search-engine-optimization p {
-    width: 40%; /* added 40$ width so text will align */
+    width: 40%; /* added 40% width so text will align */
     margin: 0 auto; /* added margin 0 auto to be able to center 'p' inside the div */
 }
 .online-reputation-management {
@@ -158,8 +158,8 @@ p {
     color: #ffffff;
 }
 .online-reputation-management p {
-    width: 50%; /* added 40$ width so text will align */
-    float: left; /* added margin 0 auto to be able to center 'p' inside the div */
+    width: 50%; /* added 50% width so text will align */
+    float: left; /* added float left for 'p' inside the div */
 }
 
 .social-media-marketing {
@@ -171,7 +171,7 @@ p {
     color: #ffffff;
 }
 .social-media-marketing p {
-    width: 40%; /* added 40$ width so text will align */
+    width: 40%; /* added 40% width so text will align */
     margin: 0 auto; /* added margin 0 auto to be able to center 'p' inside the div */
 }
 
