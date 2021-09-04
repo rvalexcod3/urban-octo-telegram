@@ -52,6 +52,7 @@ p {
 
 }
 
+
 .hero {
     height: 1100px; /* increased height of image to better match screenshot */
     width: 102%; /* increased width of image to better match screnshot */
@@ -82,7 +83,7 @@ p {
     padding: 40px; /* changed from 20px to 40px to better match screenshot */
     clear: both;
     float: right;
-    width: 16%;
+    width: 16%; /* changed from 15% to 16% to better match screenshot */
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
@@ -144,7 +145,10 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+.search-engine-optimization p {
+    width: 40%; /* added 40$ width so text will align */
+    margin: 0 auto; /* added margin 0 auto to be able to center 'p' inside the div */
+}
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +156,10 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+}
+.online-reputation-management p {
+    width: 50%; /* added 40$ width so text will align */
+    float: left; /* added margin 0 auto to be able to center 'p' inside the div */
 }
 
 .social-media-marketing {
@@ -161,6 +169,10 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+}
+.social-media-marketing p {
+    width: 40%; /* added 40$ width so text will align */
+    margin: 0 auto; /* added margin 0 auto to be able to center 'p' inside the div */
 }
 
 .search-engine-optimization img {
