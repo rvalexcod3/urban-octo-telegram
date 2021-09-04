@@ -74,7 +74,7 @@ p {
 .content {
     width: 75%;
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 40px; /* changed margin-left to 40px to better match screenshot */
 }
 
 .benefits {
@@ -82,7 +82,7 @@ p {
     padding: 40px; /* changed from 20px to 40px to better match screenshot */
     clear: both;
     float: right;
-    width: 20%;
+    width: 16%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
