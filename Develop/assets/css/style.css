@@ -56,7 +56,7 @@ p {
 
 .hero {
     height: 1100px; /* increased height of image to better match screenshot */
-    width: 100%; /* increased width of image to better match screnshot */
+    width: 92; /* increased width of image to better match screnshot */
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
@@ -74,9 +74,9 @@ p {
 }
 
 .content {
-    width: 77%;
+    width: 77%;;
     display: inline-block;
-    margin: 20px; /* changed margin to 40px to better match screenshot */
+    margin: 10px 10px 10px 10px; /* changed margin to 40px to better match screenshot */
 }
 
 .benefits {
