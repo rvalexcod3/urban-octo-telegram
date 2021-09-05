@@ -49,13 +49,14 @@ a {
 
 p {
     font-size: 16px;
+    
 
 }
 
 
 .hero {
     height: 1100px; /* increased height of image to better match screenshot */
-    width: 102%; /* increased width of image to better match screnshot */
+    width: 100%; /* increased width of image to better match screnshot */
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
@@ -73,14 +74,14 @@ p {
 }
 
 .content {
-    width: 75%;
+    width: 77%;
     display: inline-block;
-    margin-left: 50px; /* changed margin-left to 40px to better match screenshot */
+    margin: 20px; /* changed margin to 40px to better match screenshot */
 }
 
 .benefits {
     margin-right: 20px;
-    padding: 40px; /* changed from 20px to 40px to better match screenshot */
+    padding: 30px; /* changed from 20px to 40px to better match screenshot */
     clear: both;
     float: right;
     width: 16%; /* changed from 15% to 16% to better match screenshot */
@@ -196,7 +197,7 @@ p {
 
 
 .footer {
-    padding: 30px; /* removed clear declaration as it took up unnecessary space */
+    padding: 25px; /* removed clear declaration as it took up unnecessary space */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
