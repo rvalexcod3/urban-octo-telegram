@@ -78,7 +78,11 @@ p {
     display: inline-block;
     margin: 10px 10px 10px 10px; /* changed margin to 40px to better match screenshot */
 }
-
+/* replaced the repetitive h2 classes with this to consolidate, alongside changing location of h2 to stay in sequential order */
+.content h2 { 
+    margin-bottom: 20px;
+    font-size: 36px;
+}
 .benefits {
     margin-right: 20px;
     padding: 30px; /* changed from 20px to 40px to better match screenshot */
@@ -189,19 +193,8 @@ p {
     max-height: 200px;
 }
 
-/* replaced the repetitive h2 classes with this to consolidate */
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-
 .footer {
     padding: 25px; /* removed clear declaration as it took up unnecessary space */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
 }
