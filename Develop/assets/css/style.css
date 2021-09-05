@@ -75,7 +75,7 @@ p {
 .content {
     width: 75%;
     display: inline-block;
-    margin-left: 40px; /* changed margin-left to 40px to better match screenshot */
+    margin-left: 50px; /* changed margin-left to 40px to better match screenshot */
 }
 
 .benefits {
@@ -148,6 +148,7 @@ p {
 .search-engine-optimization p {
     width: 40%; /* added 40% width so text will align */
     margin: 0 auto; /* added margin 0 auto to be able to center 'p' inside the div */
+    padding-left: 5px; /* added 5px left padding to better align 'p' */
 }
 .online-reputation-management {
     margin-bottom: 20px;
@@ -187,24 +188,15 @@ p {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+/* replaced the repetitive h2 classes with this to consolidate */
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 .footer {
-    padding: 30px;
-    clear: both;
+    padding: 30px; /* removed clear declaration as it took up unnecessary space */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
