@@ -194,7 +194,7 @@ p {
 }
 
 .footer {
-    padding: 25px; /* removed clear declaration as it took up unnecessary space */
+    padding: 25px; /* removed clear declaration as it took up space */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
