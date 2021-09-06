@@ -26,7 +26,7 @@ body {
 
 .header div {
     padding-top: 15px;
-    margin-right: 100px; /* Changed to 100px to try to push the nav more to the left */
+    margin-right: 90px; /* Changed to 100px to try to push the nav more to the left */
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
